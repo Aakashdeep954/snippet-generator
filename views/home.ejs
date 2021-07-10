@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script
+            src="https://kit.fontawesome.com/b35c579c3e.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="/style.css" />
+        <title>json parser</title>
+    </head>
+    <body>
+        <i class="fas fa-chevron-up"></i>
+        <i class="fas fa-chevron-down"></i>
+
+        <div class="menu">
+            <a href="#"><i class="fab fa-github-alt icons"></i></a>
+        </div>
+
+        <div class="container">
+            <div class="half user-inputs">
+                <input
+                    type="text"
+                    class="prefix-input"
+                    placeholder="enter prefix..."
+                />
+                <textarea
+                    class="body-input"
+                    placeholder="enter body"
+                    spellcheck="false"
+                ></textarea>
+                <input
+                    type="text"
+                    class="description-input"
+                    placeholder="enter description"
+                />
+            </div>
+            <div class="half user-content">
+                <p class="content-display">
+                    <button>copy</button>
+                    <span>"print to console": {</span><br />
+                    <span class="prefix-output">&nbsp;&nbsp;"prefix":</span>
+                    <br />
+                    <span class="body-output">&nbsp;&nbsp;"body":</span>
+                    <br />
+                    <span class="description-output"
+                        >&nbsp;&nbsp;"description":</span
+                    >
+                    <br />
+                    <span>}</span>
+                </p>
+            </div>
+        </div>
+
+        <script src="/app.js"></script>
+    </body>
+</html>
